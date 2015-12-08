@@ -1,11 +1,10 @@
 <resources>
     <string name="app_name">Mi aplicación</string>
-    <string name="add">Agregar</string>
-    <string name="search">Buscar</string>
-    <string name="edit">Editar</string>
-    <string name="delete">Borrar</string>
-    <string name="action_settings">Opciones</string>
-    <string name="lblSaludo">Mensaje de bienvenida</string>
-    <string name="btnContinuar">Continuar</string>
-    <string name="title_activity_second">Segunda Actividad</string>
+    <string name="menuAccion1">Acción 1</string>
+    <string name="txvNombre">Jesús Vallejo</string>
+    <string name="btnMain" translatable="true">Mi botón</string>
+    <string name="btnImagen">Modificar imagen</string>
+    <string name="btnTexto">Modificar texto</string>
+    <string name="imgMainDesc">Imagen de prueba</string>
+    <string name="cadena">Ingresa algún dato</string>
 </resources>
