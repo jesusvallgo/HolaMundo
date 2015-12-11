@@ -25,13 +25,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Text"
-        android:id="@+id/textView"
+        android:id="@+id/txvAct5"
         android:layout_alignTop="@+id/imgAct5"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_above="@+id/imgAct5"
-        android:layout_toRightOf="@+id/btnAct5Txv"
-        android:layout_toEndOf="@+id/btnAct5Txv" />
+        android:layout_toRightOf="@+id/imgAct5"
+        android:layout_toEndOf="@+id/imgAct5"
+        android:layout_marginTop="77dp" />
     <Button
         android:id="@+id/btnAct5Imagen"
         android:layout_width="wrap_content"
@@ -45,8 +43,8 @@
         android:id="@+id/btnAct5Txv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
+        android:text="@string/btnAct5Texto"
         android:layout_below="@+id/imgAct5"
-        android:text="@string/btnAct5Texto" />
+        android:layout_alignLeft="@+id/txvAct5"
+        android:layout_alignStart="@+id/txvAct5" />
 </RelativeLayout>

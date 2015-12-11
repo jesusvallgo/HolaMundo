@@ -32,6 +32,6 @@ public class SecondActivity extends AppCompatActivity{
 
         txvAct2Nombre = (TextView)findViewById(R.id.txvAct2Nombre);
         edtAct2Nombre = (EditText)findViewById(R.id.edtAct2Nombre);
-        edtAct2Nombre.setText(edtAct2Nombre.getHint() + " " + txvAct2Nombre.getText().toString());
+        edtAct2Nombre.setHint(edtAct2Nombre.getHint() + " " + txvAct2Nombre.getText().toString());
     }
 }
