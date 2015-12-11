@@ -11,71 +11,101 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="cenapred.gob.mx.holamundo.MainActivity"
     tools:showIn="@layout/activity_main">
-
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/txvNombre"
-        android:id="@+id/txtNombre"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:text=""
-        android:hint="@string/cadena"
-        android:layout_below="@+id/txtNombre"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="43dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:id="@+id/imgMain"
-        android:src="@drawable/ic_launcher"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="54dp"
-        android:contentDescription="@string/imgMainDesc" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad2"
+                android:text="@string/btnActividad2" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btnMain"
-        android:id="@+id/btnMain"
-        android:layout_below="@+id/imgMain"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textSize="20sp"
-        android:textColor="#ffffff"
-        android:background="#005e95"
-        android:enabled="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad3"
+                android:text="@string/btnActividad3" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnImagen"
-        android:id="@+id/btnImagen"
-        android:layout_below="@+id/btnMain"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="47dp"
-        android:layout_alignRight="@+id/btnMain"
-        android:layout_alignEnd="@+id/btnMain" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad4"
+                android:text="@string/btnActividad4" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnTexto"
-        android:id="@+id/btnTxv"
-        android:layout_below="@+id/btnImagen"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/btnImagen"
-        android:layout_alignEnd="@+id/btnImagen" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad5"
+                android:text="@string/btnActividad5" />
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad6"
+                android:text="@string/btnActividad6" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad7"
+                android:text="@string/btnActividad7" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad8"
+                android:text="@string/btnActividad8" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad9"
+                android:text="@string/btnActividad9" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad10"
+                android:text="@string/btnActividad10" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad11"
+                android:text="@string/btnActividad11" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad12"
+                android:text="@string/btnActividad12" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad13"
+                android:text="@string/btnActividad13" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad14"
+                android:text="@string/btnActividad14" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActividad15"
+                android:text="@string/btnActividad15" />
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

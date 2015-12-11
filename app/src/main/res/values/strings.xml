@@ -1,10 +1,44 @@
 <resources>
+    <!-- General -->
     <string name="app_name">Mi aplicación</string>
     <string name="menuAccion1">Acción 1</string>
-    <string name="txvNombre">Jesús Vallejo</string>
-    <string name="btnMain" translatable="true">Mi botón</string>
-    <string name="btnImagen">Modificar imagen</string>
-    <string name="btnTexto">Modificar texto</string>
-    <string name="imgMainDesc">Imagen de prueba</string>
+    <!-- Actividad principal -->
+    <string name="btnActividad2">TextView y EditText</string>
+    <string name="btnActividad3">ImageView</string>
+    <string name="btnActividad4">Button y Toast</string>
+    <string name="btnActividad5">Interacción TextView e ImageView</string>
+    <string name="btnActividad6">Actividad</string>
+    <string name="btnActividad7">Actividad</string>
+    <string name="btnActividad8">Actividad</string>
+    <string name="btnActividad9">Actividad</string>
+    <string name="btnActividad10">Actividad</string>
+    <string name="btnActividad11">Actividad</string>
+    <string name="btnActividad12">Actividad</string>
+    <string name="btnActividad13">Actividad</string>
+    <string name="btnActividad14">Actividad</string>
+    <string name="btnActividad15">Actividad</string>
+
+    <!-- Actividad 2-->
+    <string name="txvAct2Nombre">Jesús Vallejo</string>
+    <string name="edtAct2NombreHint">Ingresa algun dato</string>
+
+    <!-- Actividad 3-->
+    <string name="imgAct3">Imagen de prueba</string>
+
+    <!-- Actividad 4-->
+    <string name="btnAct4" translatable="true">Mi botón</string>
+
+    <!-- Actividad 5-->
+    <string name="btnAct5Imagen">Modificar imagen</string>
+    <string name="btnAct5Texto">Modificar texto</string>
+    <string name="imgAct5">Imagen de prueba</string>
+
+    <string name="btnDato">Enviar dato</string>
     <string name="cadena">Ingresa algún dato</string>
+    <string name="txvAct2">Soy la actividad 2</string>
+    <string name="rdbOp1">Opción 1</string>
+    <string name="rdbOp2">Opción 2</string>
+    <string name="rdbOp3">Opción 3</string>
+    <string name="title_activity_cuarta">CuartaActivity</string>
+    <string name="title_activity_quinta">QuintaActivity</string>
 </resources>

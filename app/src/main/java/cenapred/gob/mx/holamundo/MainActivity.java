@@ -1,24 +1,15 @@
 package cenapred.gob.mx.holamundo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.app.ActionBar;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    private TextView contenido;
-    private TextView texto;
-    private EditText editText;
-    private ImageView imgMain;
-    private Button btnMain,btnImagen,btnTexto;
+    Intent intent = null;
+    Button btnActividad2, btnActividad3, btnActividad4, btnActividad5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,53 +19,39 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        texto = (TextView)findViewById(R.id.txtNombre);
-        editText = (EditText)findViewById(R.id.editText);
-        imgMain = (ImageView)findViewById(R.id.imgMain);
+        btnActividad2 = (Button)findViewById(R.id.btnActividad2);
+        btnActividad2.setOnClickListener(this);
 
-        editText.setHint(editText.getHint() + " " + texto.getText() + " " + imgMain.getScaleType());
+        btnActividad3 = (Button)findViewById(R.id.btnActividad3);
+        btnActividad3.setOnClickListener(this);
 
-        btnMain = (Button)findViewById(R.id.btnMain);
-        btnMain.setOnClickListener(this);
+        btnActividad4 = (Button)findViewById(R.id.btnActividad4);
+        btnActividad4.setOnClickListener(this);
 
-        btnImagen = (Button)findViewById(R.id.btnImagen);
-        btnImagen.setOnClickListener(this);
-
-        btnTexto = (Button)findViewById(R.id.btnTxv);
-        btnTexto.setOnClickListener(this);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.accion1:
-                contenido.setText("metodo para accion 1");
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
+        btnActividad5 = (Button)findViewById(R.id.btnActividad5);
+        btnActividad5.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.btnMain:
-                Toast.makeText(getApplicationContext(),"Texto de prueba para toast",Toast.LENGTH_LONG).show();
+            case R.id.btnActividad2:
+                intent = new Intent(this,SecondActivity.class);
                 break;
-            case R.id.btnTxv:
-                editText.setText("Cambiado desde aplicacion");
+            case R.id.btnActividad3:
+                intent = new Intent(this,ThirdActivity.class);
                 break;
-            case R.id.btnImagen:
-                imgMain.setImageResource(R.drawable.prueba);
+            case  R.id.btnActividad4:
+                intent = new Intent(this,CuartaActivity.class);
                 break;
+            case  R.id.btnActividad5:
+                intent = new Intent(this,QuintaActivity.class);
             default:
                 break;
+        }
+
+        if( intent!= null){
+            startActivity(intent);
         }
     }
 }
