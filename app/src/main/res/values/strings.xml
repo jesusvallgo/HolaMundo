@@ -7,11 +7,11 @@
     <string name="btnActividad3">ImageView</string>
     <string name="btnActividad4">Button y Toast</string>
     <string name="btnActividad5">Interacción TextView e ImageView</string>
-    <string name="btnActividad6">Actividad</string>
-    <string name="btnActividad7">Actividad</string>
-    <string name="btnActividad8">Actividad</string>
-    <string name="btnActividad9">Actividad</string>
-    <string name="btnActividad10">Actividad</string>
+    <string name="btnActividad6">Pasar datos</string>
+    <string name="btnActividad7">RadioGroup</string>
+    <string name="btnActividad8">Spinner</string>
+    <string name="btnActividad9">Toggle</string>
+    <string name="btnActividad10">Horizontal scroll</string>
     <string name="btnActividad11">Actividad</string>
     <string name="btnActividad12">Actividad</string>
     <string name="btnActividad13">Actividad</string>
@@ -33,12 +33,20 @@
     <string name="btnAct5Texto">Modificar texto</string>
     <string name="imgAct5">Imagen de prueba</string>
 
-    <string name="btnDato">Enviar dato</string>
-    <string name="cadena">Ingresa algún dato</string>
-    <string name="txvAct2">Soy la actividad 2</string>
+    <!-- Actividad 6-->
+    <string name="edtAct6">Dato</string>
+    <string name="btnAct6">Enviar dato</string>
+
+    <!-- Actividad 7-->
     <string name="rdbOp1">Opción 1</string>
     <string name="rdbOp2">Opción 2</string>
     <string name="rdbOp3">Opción 3</string>
-    <string name="title_activity_cuarta">CuartaActivity</string>
-    <string name="title_activity_quinta">QuintaActivity</string>
+
+    <!-- Actividad 8 -->
+
+    <!-- Actividad 9 -->
+    <string name="tglAct9Off">Offline</string>
+    <string name="tglAct9On">Online</string>
+
+    <!-- Actividad 10 -->
 </resources>

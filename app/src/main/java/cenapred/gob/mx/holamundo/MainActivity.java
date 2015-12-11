@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     Intent intent = null;
-    Button btnActividad2, btnActividad3, btnActividad4, btnActividad5;
+    Button btnActividad2, btnActividad3, btnActividad4, btnActividad5, btnActividad6, btnActividad7, btnActividad8, btnActividad9, btnActividad10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnActividad5 = (Button)findViewById(R.id.btnActividad5);
         btnActividad5.setOnClickListener(this);
+
+        btnActividad6 = (Button)findViewById(R.id.btnActividad6);
+        btnActividad6.setOnClickListener(this);
+
+        btnActividad7 = (Button)findViewById(R.id.btnActividad7);
+        btnActividad7.setOnClickListener(this);
+
+        btnActividad8 = (Button)findViewById(R.id.btnActividad8);
+        btnActividad8.setOnClickListener(this);
+
+        btnActividad9 = (Button)findViewById(R.id.btnActividad9);
+        btnActividad9.setOnClickListener(this);
+
+        btnActividad10 = (Button)findViewById(R.id.btnActividad10);
+        btnActividad10.setOnClickListener(this);
     }
 
     @Override
@@ -46,6 +61,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case  R.id.btnActividad5:
                 intent = new Intent(this,QuintaActivity.class);
+                break;
+            case  R.id.btnActividad6:
+                intent = new Intent(this,SextaActivity.class);
+                break;
+            case R.id.btnActividad7:
+                intent = new Intent(this,SeptimaActivity.class);
+                break;
+            case  R.id.btnActividad8:
+                intent = new Intent(this,OctavaActivity.class);
+                break;
+            case R.id.btnActividad9:
+                intent = new Intent(this,NovenaActivity.class);
+                break;
+            case R.id.btnActividad10:
+                intent = new Intent(this,DecimaActivity.class);
+                break;
             default:
                 break;
         }
