@@ -12,11 +12,11 @@
     <string name="btnActividad8">Spinner</string>
     <string name="btnActividad9">Toggle</string>
     <string name="btnActividad10">Horizontal scroll</string>
-    <string name="btnActividad11">Actividad</string>
-    <string name="btnActividad12">Actividad</string>
-    <string name="btnActividad13">Actividad</string>
-    <string name="btnActividad14">Actividad</string>
-    <string name="btnActividad15">Actividad</string>
+    <string name="btnActividad11">Cuadro de dialogo</string>
+    <string name="btnActividad12">Checkbox</string>
+    <string name="btnActividad13">Autocompletar</string>
+    <string name="btnActividad14">ListView</string>
+    <string name="btnActividad15">Listview Personalizado</string>
 
     <!-- Actividad 2-->
     <string name="txvAct2Nombre">Jesús Vallejo</string>
@@ -49,4 +49,23 @@
     <string name="tglAct9On">Online</string>
 
     <!-- Actividad 10 -->
+
+    <!-- Actividad 11 -->
+    <string name="btnAct11">Mostrar dialogo</string>
+
+    <!-- Actividad 12 -->
+    <string name="btnAct12">Marcar checkbox</string>
+    <string name="chk1">Uno</string>
+    <string name="chk2">Dos</string>
+    <string name="chk3">Tres</string>
+
+    <!-- Actividad 13 -->
+    <string name="txvAct13">prueba autocompletar</string>
+    <string name="btnAct13">Autocompletar</string>
+
+    <!-- Actividad 14 -->
+
+    <!-- Actividad 15 -->
+    <string name="txvAct15">Item</string>
+    <string name="txvAct15Encabezado">Encabezado</string>
 </resources>
