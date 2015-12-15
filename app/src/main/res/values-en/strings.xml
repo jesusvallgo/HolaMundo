@@ -1,0 +1,69 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">My application</string>
+    <string name="menuAccion1">Acción 1</string>
+    <!-- Actividad principal -->
+    <string name="btnActividad2">TextView y EditText</string>
+    <string name="btnActividad3">ImageView</string>
+    <string name="btnActividad4">Button y Toast</string>
+    <string name="btnActividad5">Interacción TextView e ImageView</string>
+    <string name="btnActividad6">Pasar datos</string>
+    <string name="btnActividad7">RadioGroup</string>
+    <string name="btnActividad8">Spinner</string>
+    <string name="btnActividad9">Toggle</string>
+    <string name="btnActividad10">Horizontal scroll</string>
+    <string name="btnActividad11">Cuadro de dialogo</string>
+    <string name="btnActividad12">Checkbox</string>
+    <string name="btnActividad13">Autocompletar</string>
+    <string name="btnActividad14">Actividad</string>
+    <string name="btnActividad15">Actividad</string>
+
+    <!-- Actividad 2-->
+    <string name="txvAct2Nombre">Jesús Vallejo</string>
+    <string name="edtAct2NombreHint">Ingresa algun dato</string>
+
+    <!-- Actividad 3-->
+    <string name="imgAct3">Imagen de prueba</string>
+
+    <!-- Actividad 4-->
+    <string name="btnAct4" translatable="true">Mi botón</string>
+
+    <!-- Actividad 5-->
+    <string name="btnAct5Imagen">Modificar imagen</string>
+    <string name="btnAct5Texto">Modificar texto</string>
+    <string name="imgAct5">Imagen de prueba</string>
+
+    <!-- Actividad 6-->
+    <string name="edtAct6">Dato</string>
+    <string name="btnAct6">Enviar dato</string>
+
+    <!-- Actividad 7-->
+    <string name="rdbOp1">Opción 1</string>
+    <string name="rdbOp2">Opción 2</string>
+    <string name="rdbOp3">Opción 3</string>
+
+    <!-- Actividad 8 -->
+
+    <!-- Actividad 9 -->
+    <string name="tglAct9Off">Offline</string>
+    <string name="tglAct9On">Online</string>
+
+    <!-- Actividad 10 -->
+
+    <!-- Actividad 11 -->
+    <string name="btnAct11">Mostrar dialogo</string>
+
+    <!-- Actividad 12 -->
+    <string name="btnAct12">Marcar checkbox</string>
+    <string name="chk1">Uno</string>
+    <string name="chk2">Dos</string>
+    <string name="chk3">Tres</string>
+
+    <!-- Actividad 13 -->
+    <string name="txvAct13">prueba autocompletar</string>
+    <string name="btnAct13">Autocompletar</string>
+
+    <!-- Actividad 14 -->
+
+    <!-- Actividad 15 -->
+</resources>
